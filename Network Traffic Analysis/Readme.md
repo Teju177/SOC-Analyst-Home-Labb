@@ -1,7 +1,21 @@
-# Project 3 - Network Traffic Analysis 
-## Objective Capture and analyze network traffic using Wireshark to detect suspicious activity. 
-## Tools Used - Wireshark (packet capture and analysis) - Splunk Enterprise (log correlation) - Windows PowerShell (portscan simulation) 
-## Key Wireshark Filters Used - dns (DNS traffic analysis) - http (HTTP traffic monitoring) - tcp.flags.syn == 1 (port scan detection) - ip.addr ==[target IP] 
-## Attack Simulation Simulated port scan using PowerShell Test-NetConnection. Captured and identified SYN packets in Wireshark. 
-## Outcome
-Successfully identified port scan traffic pattern. Exported pcap file and imported into Splunk for correlation.
+# Project 3 - Suspicious Network Traffic Analysis Using Wireshark & Splunk
+
+## Objective
+Capture and analyze network traffic using Wireshark to identify suspicious activity and correlate logs using Splunk.
+
+---
+
+## Tools Used
+- Wireshark (Packet Capture & Analysis)
+- Splunk Enterprise (Log Correlation & Monitoring)
+- Windows PowerShell (Port Scan Simulation)
+
+---
+
+## Wireshark Filters Used
+
+```wireshark
+dns
+http
+tcp.flags.syn == 1
+ip.addr == [Target IP]
