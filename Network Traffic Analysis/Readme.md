@@ -74,4 +74,4 @@ This project improved understanding of:
 ## Screenshots
 
 ### SYN Packet Detection in Wireshark
-![Wireshark Traffic Analysis](tcp.png)
+![Network Traffic Analysis](tcp.png)
