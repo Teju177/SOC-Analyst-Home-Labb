@@ -1,4 +1,4 @@
-# Hi, I'm Tejas Gowda 👋
+# Hi, I'm Tejas 👋
 
 ## Aspiring SOC Analyst | Cybersecurity Enthusiast | SIEM & Network Security Learner
 
@@ -32,12 +32,6 @@ Passionate cybersecurity enthusiast focused on SOC operations, threat detection,
 - Wireshark
 - Windows PowerShell
 - Git & GitHub
-
-### Web Technologies
-- HTML
-- CSS
-- PHP
-- WordPress
 
 ---
 
